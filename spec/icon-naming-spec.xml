@@ -942,6 +942,12 @@ The icon used for the desktop's dictionary accessory program.
 	    </entry>
 	  </row>
 	  <row>
+	    <entry>accessories-screenshot-tool</entry>
+	    <entry>
+The icon used for the desktop's screenshot taking program.
+	    </entry>
+	  </row>
+	  <row>
 	    <entry>accessories-text-editor</entry>
 	    <entry>
 The icon used for the desktop's text editing accessory program.
