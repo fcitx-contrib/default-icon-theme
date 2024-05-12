@@ -217,6 +217,9 @@
               may optionally add other default themes in between the last
               specified theme and the hicolor theme.
               </para>
+              <para>
+              Themes that are inherited from explicitly must be present on the system.
+              </para>
 	    </entry>
 	    <entry>strings</entry>
 	    <entry>NO</entry>
