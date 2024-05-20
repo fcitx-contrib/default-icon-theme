@@ -1,3 +1,25 @@
+Version 0.18
+~~~~~~~~~~~~
+Released: 2024-05-20
+
+Features:
+ * Provide a pkgconfig file
+ * Create HiDPI directories
+ * Port build system to Meson
+
+Specification:
+ * spec: Mandate that base themes must be installed
+ * spec/icon-naming: Add name for the screenshot-taking program
+
+Miscellaneous:
+ * Convert changelog to NEWS file and update it
+ * Add script to quickly validate the specification
+ * Add CI
+
+Contributors:
+ Alexander Schwinn, Danielle Foré, Matthias Klumpp,
+ Robert-André Mauchin, Xavier Claessens
+
 Version 0.17
 ~~~~~~~~~~~~
 Released: 2017-08-31
