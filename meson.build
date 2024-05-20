@@ -3,6 +3,8 @@ project('hicolor-icon-theme',
   meson_version: '>=0.60',
 )
 
+pkgc = import('pkgconfig')
+
 icon_sizes = [
   '16x16',
   '22x22',
@@ -82,3 +84,9 @@ foreach dir : icon_sizes
 endforeach
 
 install_emptydir(theme_dir / 'symbolic/apps')
+
+pkgc.generate(
+  name : 'default-icon-theme',
+  description : 'The default fallback theme used by XDG icon-theme implementations.',
+  dataonly : true,
+)
