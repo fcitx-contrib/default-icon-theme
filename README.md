@@ -20,4 +20,4 @@ Tarballs are available at:
 https://icon-theme.freedesktop.org/releases/
 
 If you add translations, please send them to
-xdg-list@freedesktop.org for inclusion in a later release.
+xdg@lists.freedesktop.org for inclusion in a later release.
