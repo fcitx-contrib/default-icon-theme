@@ -2,8 +2,8 @@ Default Icon Theme Release Notes
 
 1. Set variables
 
-OLD_VERSION="0.17"
-NEW_VERSION="0.18"
+OLD_VERSION="0.18"
+NEW_VERSION="0.19"
 
 2. Write NEWS entries in the same format as usual.
 
@@ -11,7 +11,7 @@ git shortlog $OLD_VERSION.. | grep -i -v -E '^\s*(trivial:|l10n:)' | grep -v Mer
 
 -------------------------------------------------------------------------------
 
-Version 0.18
+Version 0.19
 ~~~~~~~~~~~~
 Released: 2024-xx-xx
 
@@ -45,7 +45,7 @@ git push && git push --tags
 5. Send an email to xdg@lists.freedesktop.org
 
 -------------------------------------------------------------------------------
-Default Icon Theme 0.18 released!
+Default Icon Theme 0.19 released!
 
 Tarballs available here: https://icon-theme.freedesktop.org/releases/
 

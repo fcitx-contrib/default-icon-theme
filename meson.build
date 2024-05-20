@@ -1,5 +1,5 @@
 project('hicolor-icon-theme',
-  version: '0.18',
+  version: '0.19',
   meson_version: '>=0.60',
 )
 
