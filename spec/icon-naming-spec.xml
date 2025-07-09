@@ -417,6 +417,12 @@ The icon for the undo action.
 	    </entry>
 	  </row>
 	  <row>
+	    <entry>find-location</entry>
+	    <entry>
+The icon used for the action of finding the user's physical location
+	    </entry>
+	  </row>
+	  <row>
 	    <entry>folder-new</entry>
 	    <entry>
 The icon for creating a new folder.
