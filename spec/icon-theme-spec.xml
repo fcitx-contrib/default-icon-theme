@@ -123,7 +123,7 @@
     <footnote><para>This name is chosen for backwards compatibility with the old
     KDE default theme</para></footnote>.
     The data for the hicolor theme is available for download at:
-    http://www.freedesktop.org/software/icon-theme/.
+    https://icon-theme.freedesktop.org/releases/.
     Implementations are required to look in the "hicolor" theme if
     an icon was not found in the current theme.
     </para>
