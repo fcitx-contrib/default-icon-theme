@@ -135,11 +135,13 @@ file manager. This context contains emblems for such things as
 	    <entry>emblems</entry>
 	  </row>
 	  <row>
-	    <entry>Emotes</entry>
+	    <entry>Emotes (Deprecated)</entry>
 	    <entry>
 Icons for emotions that are expressed through text chat
 applications such as :-) or :-P in IRC or instant messengers.
-	    </entry>
+
+This category has been deprecated in favor of Unicode emoji and emoticon characters, and should not be used for new applications.	    
+        </entry>
 	    <entry>emotes</entry>
 	  </row>
 	  <row>
@@ -1469,146 +1471,6 @@ The icon used as an emblem for files and directories that are inaccessible.
       </tgroup>
     </table>
 
-    <table id="emotes">
-      <title>Standard Emotion Icons</title>
-      <tgroup cols="2">
-	<thead>
-	  <row>
-	    <entry>Name</entry>
-	    <entry>Description</entry>
-	  </row>
-	</thead>
-	<tbody>
-	  <row>
-	    <entry>face-angel</entry>
-	    <entry>
-The icon used for the 0:-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-angry</entry>
-	    <entry>
-The icon used for the X-( emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-cool</entry>
-	    <entry>
-The icon used for the B-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-crying</entry>
-	    <entry>
-The icon used for the :'( emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-devilish</entry>
-	    <entry>
-The icon used for the &gt;:-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-embarrassed</entry>
-	    <entry>
-The icon used for the :-[ emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-kiss</entry>
-	    <entry>
-The icon used for the :-* emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-laugh</entry>
-	    <entry>
-The icon used for the :-)) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-monkey</entry>
-	    <entry>
-The icon used for the :-(|) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-plain</entry>
-	    <entry>
-The icon used for the :-| emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-raspberry</entry>
-	    <entry>
-The icon used for the :-P emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-sad</entry>
-	    <entry>
-The icon used for the :-( emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-sick</entry>
-	    <entry>
-The icon used for the :-&amp; emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-smile</entry>
-	    <entry>
-The icon used for the :-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-smile-big</entry>
-	    <entry>
-The icon used for the :-D emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-smirk</entry>
-	    <entry>
-The icon used for the :-! emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-surprise</entry>
-	    <entry>
-The icon used for the :-0 emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-tired</entry>
-	    <entry>
-The icon used for the |-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-uncertain</entry>
-	    <entry>
-The icon used for the :-/ emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-wink</entry>
-	    <entry>
-The icon used for the ;-) emote.
-	    </entry>
-	  </row>
-	  <row>
-	    <entry>face-worried</entry>
-	    <entry>
-The icon used for the :-S emote.
-	    </entry>
-	  </row>
-	</tbody>
-      </tgroup>
-    </table>
-
     <table id="intl">
       <title>Standard International Icons</title>
       <tgroup cols="2">
@@ -2221,6 +2083,157 @@ The icon used while snow showers are occurring in a region.
 	    <entry>weather-storm</entry>
 	    <entry>
 The icon used while storms are occurring in a region.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+  </sect1>
+
+  <sect1 id="deprecated">
+      <title>Deprecated Icon Names</title>
+
+      <para>
+This section describes the icon names that have been deprecated from the specification,
+and should not be used by developers when writing new applications that 
+will use the Icon Theme Specification.        
+      </para>
+
+    <table id="emotes">
+      <title>Deprecated Emotion Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>face-angel</entry>
+	    <entry>
+The icon used for the 0:-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-angry</entry>
+	    <entry>
+The icon used for the X-( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-cool</entry>
+	    <entry>
+The icon used for the B-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-crying</entry>
+	    <entry>
+The icon used for the :'( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-devilish</entry>
+	    <entry>
+The icon used for the &gt;:-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-embarrassed</entry>
+	    <entry>
+The icon used for the :-[ emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-kiss</entry>
+	    <entry>
+The icon used for the :-* emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-laugh</entry>
+	    <entry>
+The icon used for the :-)) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-monkey</entry>
+	    <entry>
+The icon used for the :-(|) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-plain</entry>
+	    <entry>
+The icon used for the :-| emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-raspberry</entry>
+	    <entry>
+The icon used for the :-P emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-sad</entry>
+	    <entry>
+The icon used for the :-( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-sick</entry>
+	    <entry>
+The icon used for the :-&amp; emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smile</entry>
+	    <entry>
+The icon used for the :-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smile-big</entry>
+	    <entry>
+The icon used for the :-D emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smirk</entry>
+	    <entry>
+The icon used for the :-! emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-surprise</entry>
+	    <entry>
+The icon used for the :-0 emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-tired</entry>
+	    <entry>
+The icon used for the |-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-uncertain</entry>
+	    <entry>
+The icon used for the :-/ emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-wink</entry>
+	    <entry>
+The icon used for the ;-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-worried</entry>
+	    <entry>
+The icon used for the :-S emote.
 	    </entry>
 	  </row>
 	</tbody>
